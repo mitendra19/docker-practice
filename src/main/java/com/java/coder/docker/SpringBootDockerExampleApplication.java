@@ -13,7 +13,7 @@ public class SpringBootDockerExampleApplication {
 
 	@GetMapping("/message")
 	public String getStartMessage() {
-		return "Welcome to My first docker application";
+		return "Welcome to My first docker application with jenkins";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerExampleApplication.class, args);
